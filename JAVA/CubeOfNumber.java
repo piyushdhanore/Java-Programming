@@ -10,8 +10,7 @@ public class CubeOfNumber
             for(int i =0; i<3; i++)
             {
                 power = power*num;
-            }  
-
+            }
         System.out.println("cube of "+num+" is "+power);    
         c.close();
     }
