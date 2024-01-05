@@ -19,5 +19,6 @@ public class CubeOfDigitSum
             num/=10;
         }
         System.out.println("Sum of cube of digit is: "+sum);
+        c.close();
     }      
 }
