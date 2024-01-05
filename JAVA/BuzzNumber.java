@@ -17,3 +17,6 @@ public class BuzzNumber
         }
     }
 }
+/*
+ Buzz Number: the numbers that are divisibl by seven or ends with seven.
+ */
