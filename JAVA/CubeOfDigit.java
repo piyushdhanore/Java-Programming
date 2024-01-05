@@ -18,5 +18,6 @@ public class CubeOfDigit
             System.out.println("cube of "+rem+" is "+power);
             num/=10;
         }
+        c.close();
     }       
 }
