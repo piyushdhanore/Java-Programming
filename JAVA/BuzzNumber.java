@@ -15,6 +15,7 @@ public class BuzzNumber
         {
             System.out.println(num+" is not a buzz number");
         }
+        b.close();
     }
 }
 /*
