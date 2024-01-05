@@ -32,7 +32,7 @@ public class DisariumNumber
         {
             System.out.println(temp+" is not a disarium number");   
         }
-
+        d.close();
     }
 }
 /*
