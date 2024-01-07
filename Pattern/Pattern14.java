@@ -15,7 +15,7 @@ public class Pattern14
             } 
             for (int j = 0; j < star; j++) 
             {
-                System.out.print("*"+" ");                    
+                System.out.print("*"+" ");                   
             } 
             if (i<n/2) 
             {
