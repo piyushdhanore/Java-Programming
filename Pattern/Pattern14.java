@@ -32,3 +32,8 @@ public class Pattern14
         }
     }    
 }
+/*
+ 1) After n, the space should keep on increasing and before n the space should keep on decreasing.
+ 2) star=1 because the minimum number of star required at the top is 1.
+ 3) space=n/2 because maximum required space is half of the given number.
+ */
