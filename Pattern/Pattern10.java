@@ -1,16 +1,13 @@
-import java.util.Scanner;
 public class Pattern10 
 {
     public static void main(String[] args) 
     {
-        Scanner p =new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int n = p.nextInt();
-        for (int i = 0; i<n; i++) 
+
+        for (int i = 0; i<7; i++) 
         {
-            for (int j = 0; j < n; j++) 
+            for (int j = 0; j < 7; j++) 
             {
-               if (j<n-1-i) 
+               if (j<7-1-i) 
                {
                     System.out.print(" "+" ");
                } 
