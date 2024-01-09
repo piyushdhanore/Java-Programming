@@ -6,6 +6,7 @@ public class Pattern7
         for(int i=0; i<7; i++)
         {
             for(int j=0;j<n-i;j++)
+            // or j+i<n;
             {
                 System.out.print("*"+" ");
             }
