@@ -46,6 +46,5 @@ class Armstrong
             System.out.println(ip+" is not an armstrong number");
         }
         a.close();
-
     }
 }
