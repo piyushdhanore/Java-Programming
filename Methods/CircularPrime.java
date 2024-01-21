@@ -9,7 +9,7 @@ public class CircularPrime
         int temp = ip;
         if (isPrime(ip)) 
         {
-           ip = rotate(ip);
+            ip = rotate(ip);
            while (ip!=temp) 
            {
                 if (isPrime(ip)) 
@@ -21,15 +21,19 @@ public class CircularPrime
                     break;    
                 } 
            } 
-        }
-        if (ip==temp) 
-        {
-            System.out.println("Given number is a circular prime");    
+            if (ip==temp) 
+            {
+                System.out.println("Given number is a circular prime");    
+            } 
+            else 
+            {
+                System.out.println("Given number is a circular prime");        
+            }
         } 
         else 
         {
-            System.out.println("Given number is a circular prime");        
-        }
+            System.out.println("it is not a prime number");
+        }    
         cp.close();
     }
 
