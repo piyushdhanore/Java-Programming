@@ -9,7 +9,7 @@ public class TwinPrimeNumber
         for (; i<=n; i=n2) 
         {
             n2=prime(i+1);
-            if (n2-n1<2) 
+            if (n2-n1<=2) 
             {
                 System.out.println(n1+" "+n2);
             }
