@@ -2,22 +2,15 @@ public class RotateNumber
 {
     public static void main(String[] args) 
     {
-        int ans = rotate(1234);
-        System.out.println("Rotation of 1234 is: "+ans);
-    }
+        int num = 345, ans=0;
 
-    public static int rotate(int num)
-    {
-        int ans =0;
-        while (num!=0) 
-       {
-        int last =num%10;
-        int quo= num/10;
-        int digit= count(quo);
-        ans = last*power(10,digit);
-        num/=10;
-       }
-        return ans;
+        while (num>0) 
+        {
+            int rem = num%10;
+            ans = ans + rem*power(10,count(num)-1);
+            num/=10;    
+        }
+        System.out.println(ans);
     }
 
     public static int count(int num)
@@ -39,5 +32,5 @@ public class RotateNumber
             power = power * base;
         }
         return power;
-    }
+    }   
 }
