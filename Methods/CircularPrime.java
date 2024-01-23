@@ -20,7 +20,7 @@ public class CircularPrime
                 {
                     break;    
                 }
-           }     
+            }     
                 if (ip==temp) 
                 {
                     System.out.println("Given number is a circular  prime");    
@@ -52,12 +52,10 @@ public class CircularPrime
 
     public static int rotate(int num)
     {
-        int ans=0;
-        while (num>0) 
-        {
-            int rem = num%10; 
-            ans = rem * power(10, count(num)-1) + (num/=10); 
-        }
+        int last = num%10; 
+        num/=10;
+        int count = count(num);
+        int ans = last * power(10, count) + num; 
         return ans;
     }
 
