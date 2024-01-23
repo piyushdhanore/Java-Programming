@@ -19,10 +19,10 @@ public class TwinPrimeNumber
 
     public static int prime(int num)
     {
-        int n =2;
-        for (int i = n; ; i++) 
+        int i = num;
+        for (; ; i++) 
         {
-            int j=1;
+            int j=2;
             for (; j < i; j++) 
             {
                 if (i%j==0) 
@@ -32,8 +32,10 @@ public class TwinPrimeNumber
             }
             if (i==j) 
             {
-                return i;
+                break;
             }
         }
+        return i;
+        
     }
 }
