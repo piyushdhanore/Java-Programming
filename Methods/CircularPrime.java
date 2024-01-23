@@ -19,7 +19,8 @@ public class CircularPrime
                 else 
                 {
                     break;    
-                } 
+                }
+           }     
                 if (ip==temp) 
                 {
                     System.out.println("Given number is a circular  prime");    
@@ -27,9 +28,7 @@ public class CircularPrime
                 else 
                 {
                     System.out.println("Given number is not a circular prime");        
-                }
-                break;
-            }    
+                }  
         } 
         else 
         {
@@ -57,8 +56,7 @@ public class CircularPrime
         while (num>0) 
         {
             int rem = num%10; 
-            ans = rem * power(10, count(num)-1); 
-            num/=10; 
+            ans = rem * power(10, count(num)-1) + (num/=10); 
         }
         return ans;
     }
