@@ -7,6 +7,7 @@ public class RotateNumber
         System.out.println("enter a number: ");
         int num = r.nextInt();
         System.out.print(rotate(num));
+        r.close();
     }
     public static int rotate(int num)
     {
