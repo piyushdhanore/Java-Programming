@@ -1,4 +1,4 @@
-public class Cuban 
+public class CubanPrimeNumber 
 {
     public static void main(String[] args) 
     {
