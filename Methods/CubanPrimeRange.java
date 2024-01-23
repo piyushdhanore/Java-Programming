@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class CubanPrime
+class CubanPrimeRange
 {
 	public static void main(String[] args) 
 	{
