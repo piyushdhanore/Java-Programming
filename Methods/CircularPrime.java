@@ -21,14 +21,14 @@ public class CircularPrime
                     break;    
                 }
             }     
-                if (ip==temp) 
-                {
-                    System.out.println("Given number is a circular  prime");    
-                } 
-                else 
-                {
-                    System.out.println("Given number is not a circular prime");        
-                }  
+            if (ip==temp) 
+            {
+                System.out.println("Given number is a circular prime");    
+            } 
+            else 
+            {
+                System.out.println("Given number is not a circularprime");        
+            }  
         } 
         else 
         {

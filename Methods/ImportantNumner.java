@@ -26,7 +26,7 @@ public class ImportantNumner
                 break;
             }      
         }
-        if (ip==2) 
+        if (ip==1) 
         {
             System.out.println("it is an important number");
         } 
