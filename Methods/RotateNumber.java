@@ -16,6 +16,11 @@ public class RotateNumber
         int count = count(num);
         int ans = last * power(10, count) + num; 
         return ans;
+        /*
+        or 
+        return (num%10)*power(10,count(num)-1)+num/=10;
+        */ 
+
     }
     public static int count(int num)
     {
