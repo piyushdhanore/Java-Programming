@@ -28,12 +28,14 @@ public class ImportantNumber
         }
         if (ip==1) 
         {
-            System.out.println("it is an important number");
+            System.out.println("It is an important number");
         } 
         else 
         {
-            System.out.println("it is not an important number");
+            System.out.println("It is not an important number");
         }
+        in.close();
 
     }
 }
+
