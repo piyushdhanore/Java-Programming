@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ImportantNumner 
+public class ImportantNumber 
 {
     public static void main(String[] args) 
     {
