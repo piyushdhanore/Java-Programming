@@ -12,7 +12,7 @@ public class EvenOdd
 
     public static void evenOdd(int num)
     {
-        if (num%2==0) 
+        if ((num/2)*2==num) 
         {
            System.out.println(num+" is an even number"); 
         } 
