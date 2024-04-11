@@ -15,10 +15,12 @@ public class EvenOdd
         if ((num/2)*2==num) 
         {
            System.out.println(num+" is an even number"); 
+           return;
         } 
         else 
         {
             System.out.println(num+" is an odd number");
+            return;
         }
     }
 }
