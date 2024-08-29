@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class PowerOfNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the base: ");
+		int base = sc.nextInt();
+		
+		System.out.println("Enter the number of times to multiply: ");
+		int times = sc.nextInt();
+		
+		int ans = 1;
+		int start = 0;
+		
+		while(start<times) {
+			ans = ans*base;
+			start++;
+		}
+		
+		System.out.println(ans);
+		
+		sc.close();
+	}
+}
