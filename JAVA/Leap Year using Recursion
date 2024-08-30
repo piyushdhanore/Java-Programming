@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class LeapYearRecursion {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter a starting year: ");
+		int start = sc.nextInt();
+		
+		System.out.println("Enter an ending year: ");
+		int end = sc.nextInt();
+		
+		leap(start, end);
+		
+		sc.close();
+	}
+
+	public static void leap(int start, int end) {
+
+		if (start < end) {
+
+			if ((start % 4 == 0 && start != 100) || (start % 400 == 0)) {
+
+				System.out.println(start + " is a leap year");
+				leap(++start, end);
+//				note that it shouldn't be start++ or we'll get java.lang.StackOverflowError
+			} else {
+				System.out.println(start + " is not a leap year");
+				leap(++start, end);
+			}
+		} else {
+			return;
+		}
+	}
